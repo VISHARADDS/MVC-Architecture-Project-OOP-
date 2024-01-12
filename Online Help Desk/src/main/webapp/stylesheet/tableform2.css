@@ -1,0 +1,99 @@
+@charset "ISO-8859-1";
+.form-popup2 {
+  display: none;
+  position: fixed;
+  bottom: 135px;
+  right: 400px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+
+  
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 135px;
+    right: 40px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+
+  .form-container {
+    max-width: 400px;
+    padding: 10px;
+    background-color: white;
+    
+  }
+  
+  
+  
+  .form-container input[type=text], .form-container input[type=email]{
+    width: 100%;
+    padding: 10px;
+    margin: 0px 0 10px 0;
+    border: none;
+    background: #f1f1f1;
+    box-sizing: border-box;
+  }
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 2px 0 10px 0;
+    border: none;
+    background: #f1f1f1;
+    box-sizing: border-box;
+  }
+  .form-container textarea:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  
+
+ .form-container input[type=text], .form-container input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  
+  .form-container .blue {
+    background-color:rgba(79,192,210,1);
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+
+  .form-container .BTN {
+    background-color:rgba(79,192,210,1);
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+
+  .form-container .cancel {
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+
+  .form-container .blue:hover,.cancel:hover {
+    opacity: 1;
+  }

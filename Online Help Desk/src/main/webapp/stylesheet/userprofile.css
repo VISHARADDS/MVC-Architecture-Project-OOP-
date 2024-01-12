@@ -1,0 +1,109 @@
+
+@charset "ISO-8859-1";
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+
+.user-content{
+        width: 80%;
+        max-width:1000px;
+        height: 400px;
+        margin:100px 150px auto 150px;
+        padding:0;
+        background:rgb(186, 201, 206);
+        color:black;
+        overflow:hidden;
+        position:relative;
+        border-radius: 35px;
+      
+}
+
+.uimage{
+	width: 333px;
+	height:333px;
+    position: relative;
+    top: 10px;
+    display:inline-block;
+}
+
+img{
+    margin-left: 65px;
+    margin-top: 60px;
+    margin-bottom: 0;
+    height: 230px;
+    border-bottom: 0;
+    position:relative;
+}
+
+.user-name{
+    margin-left:110px;
+    margin-top: 8px;
+    font-size: 18px;
+    color:rgb(13, 13, 92);
+
+}
+
+.vl {
+    border-left: 3px dashed rgb(0, 0, 0);
+    height: 280px;
+    position: absolute;
+    left: 40%;
+    margin-left: 3px;
+    top: 0;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+.info{
+    left: 150px;
+    position: relative;
+    display: inline-block;
+    bottom: -25px;
+    height: 250px;
+    width: 250px;
+
+    
+}
+
+.Name, .E-mail , .Contact , .Gender{
+	font-weight:solid;
+	margin:20px 0 0 0;
+    padding:0px 5px 5px 0;
+    font-size: 18px;
+    color:rgb(13, 13, 92);
+
+}
+
+
+
+
+
+hr{
+    border: none;
+    outline: none;
+    height: 2px;
+    background-color: beige;
+    margin:3px;
+
+}
+
+a.edit-btn{
+    display: inline-flex;
+    height: 23px;
+    width: fit-content;
+    background-color:rgb(202 ,213 ,233);
+    bottom: -46px;
+    position: relative;
+    left:165px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
+
+a.edit-btn:hover {
+    background-color:white;
+    color:rgba(79,192,210,1);
+}
+    
+

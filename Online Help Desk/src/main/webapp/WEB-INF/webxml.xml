@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1"
+ xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+   http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://xmlns.jcp.org/xml/ns/javaee">
+  
+    <servlet>
+  
+     <servlet-name>techLoginPage</servlet-name>
+     <servlet-class>techLogin.LoginServlet</servlet-class>
+   
+  </servlet>
+  <servlet-mapping>
+  
+   <servlet-name>techLoginPage</servlet-name>
+   <url-pattern>/LoginServlet</url-pattern>
+  
+  </servlet-mapping>
+  
+  <servlet>
+  
+  <servlet-name> Create </servlet-name>
+  <servlet-class>techLogin.showIssueTable</servlet-class>
+  
+  </servlet>
+  
+  <servlet-mapping>
+  
+   <servlet-name>Create</servlet-name>
+   <url-pattern>/showIssueTable</url-pattern>
+  
+  </servlet-mapping>
+  
+<servlet>
+<servlet-name>DeleteServlet</servlet-name>
+<servlet-class>techLogin.DeleteServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>DeleteServlet</servlet-name>
+<url-pattern>/DeleteServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>updateIssue</servlet-name>
+<servlet-class>techLogin.updateIssue</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>updateIssue</servlet-name>
+<url-pattern>/updateIssue</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+<servlet-name>create2</servlet-name>
+<servlet-class>techLogin.maintenanceDB</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>create2</servlet-name>
+<url-pattern>/maintenanceDB</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>updateMaintenance</servlet-name>
+<servlet-class>techLogin.updateMaintenance</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>updateMaintenance</servlet-name>
+<url-pattern>/updateMainntenance</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>DeleteServlet2</servlet-name>
+<servlet-class>techLogin.DeleteServlet2</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>DeleteServlet2</servlet-name>
+<url-pattern>/DeleteServlet2</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>UpdateProfileServlet</servlet-name>
+<servlet-class>techLogin.UpdateProfileServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>UpdateProfileServlet</servlet-name>
+<url-pattern>/UpdateProfileServlet</url-pattern>
+
+</servlet-mapping>
+
+  </web-app>
